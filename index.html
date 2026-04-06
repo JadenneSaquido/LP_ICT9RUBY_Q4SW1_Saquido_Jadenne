@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Seatwork #1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-card">
+        <div class="icon-circle">👩‍💻</div>
+        <h2>Login</h2>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <label>👤 Username</label>
+                <input type="text" id="uname" placeholder="Enter username" required>
+            </div>
+
+            <div class="input-group">
+                <label>🔐 Password</label>
+                <input type="password" id="pword" placeholder="Enter password" required>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="stay-logged">
+                <label style="display: inline;" for="stay-logged">Stay logged in</label>
+            </div>
+
+            <div class="button-row">
+                <button type="submit" class="btn-login">Login</button>
+                <button type="button" id="cancelBtn" class="btn-cancel">Cancel</button>
+            </div>
+
+            <a href="#" class="forgot-link">Forgot username or password?</a>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

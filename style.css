@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(255, 248, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    border: 15px solid rgb(250, 218, 235);
+    border-radius: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(251, 174, 224);
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 218, 235);
+    font-size: 30px;
+}
+
+h2 { color: rgb(251, 174, 224); margin-bottom: 20px; }
+
+.input-group { text-align: left; margin-bottom: 15px; }
+
+label { display: block; color: #666; margin-bottom: 5px; }
+
+input, input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(251, 174, 224);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox-group { text-align: left; margin-bottom: 20px; }
+
+.button-row { display: flex; gap: 10px; }
+
+.btn-login {
+    background-color: rgb(251, 174, 224);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: white;
+    border: 1px solid rgb(251, 174, 224);
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.forgot-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
